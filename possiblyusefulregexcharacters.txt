@@ -1,0 +1,4 @@
+[] for character set, add all valid characters in it
+[^characters] for characters that shouldnt be there
+character{} for number of characters(bond rating shortcut)
+() to group company name and bond rating

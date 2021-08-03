@@ -24,4 +24,5 @@ cells.each_with_index do |cell, index|
     cells[index] = cell
 end
 
-# data now form of Company delimiter Rating, now hv to identify different types/format of delimiters
+# data now form of Rating Organization delimiter Rating, now hv to identify different types/format of delimiters
+puts cells[0..100]
