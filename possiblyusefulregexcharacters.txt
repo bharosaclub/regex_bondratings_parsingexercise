@@ -2,3 +2,4 @@
 [^characters] for characters that shouldnt be there
 character{} for number of characters(bond rating shortcut)
 () to group company name and bond rating
+/
