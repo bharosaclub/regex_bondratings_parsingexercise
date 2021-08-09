@@ -33,7 +33,7 @@ regexp_1 = /(\w+)\]*?[-|\s|]*(?=A|B|C|D|M)((A|B|C|D)(\s)?(\(.*\))?)?/
 #HAVE TO PREPROCESS REMOVAL OF NON RATING ONES
 
 print "Enter test company name / rating pair: "
-test_string = gets.chomp()
+c = gets.chomp()
 name = regexp_companyname.match(c).captures[0]
 if regexp_4.match(c).captures[1] != nil
     rating = regexp_4.match(c).captures[1]
@@ -50,7 +50,7 @@ else
 end
 print "Company name: "
 print name
-
+puts "\n"
 print "Company bond rating: "
 print rating
 # GETTING THE COMPANY NAME
